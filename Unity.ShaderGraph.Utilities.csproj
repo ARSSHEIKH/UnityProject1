@@ -9,10 +9,10 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{edd19336-6bf1-2a35-df7f-8bd946fc37ab}</ProjectGuid>
+    <ProjectGuid>{10b63f77-dba0-a1ff-205b-056198194200}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <AssemblyName>Unity.ShaderGraph.Utilities</AssemblyName>
     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <BaseDirectory>.</BaseDirectory>
@@ -22,7 +22,7 @@
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
     <OutputPath>Temp\bin\Debug\</OutputPath>
-    <DefineConstants>DEBUG;TRACE;UNITY_2019_4_7;UNITY_2019_4;UNITY_2019;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;PLATFORM_ARCH_64;UNITY_64;UNITY_INCLUDE_TESTS;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;INCLUDE_DYNAMIC_GI;ENABLE_MONO_BDWGC;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_VIDEO;PLATFORM_STANDALONE;PLATFORM_STANDALONE_WIN;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_OUT_OF_PROCESS_CRASH_HANDLER;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_STANDARD_2_0;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_LEGACY_INPUT_MANAGER;CROSS_PLATFORM_INPUT;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
+    <DefineConstants>DEBUG;TRACE;UNITY_2019_4_7;UNITY_2019_4;UNITY_2019;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;PLATFORM_ARCH_64;UNITY_64;UNITY_INCLUDE_TESTS;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;INCLUDE_DYNAMIC_GI;ENABLE_MONO_BDWGC;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_VIDEO;PLATFORM_STANDALONE;PLATFORM_STANDALONE_WIN;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_OUT_OF_PROCESS_CRASH_HANDLER;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_4_6;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_LEGACY_INPUT_MANAGER;CROSS_PLATFORM_INPUT;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER;NET_STANDARD_2_0</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <NoWarn>0169</NoWarn>
@@ -36,250 +36,10 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\#NVJOB Simple Water Shaders\#NVJOB Simple Water Shaders\SimpleWaterShaders.cs" />
-     <Compile Include="Assets\#NVJOB Simple Water Shaders\Example Scenes\Environment\#NVJOB Assets\Dynamic Sky (For Demo)\DynamicSkyForDemo.cs" />
-     <Compile Include="Assets\#NVJOB Simple Water Shaders\Example Scenes\Environment\Scripts\Lighthouse.cs" />
-     <Compile Include="Assets\#NVJOB Simple Water Shaders\Example Scenes\Environment\Scripts\TDControl.cs" />
-     <Compile Include="Assets\#NVJOB Simple Water Shaders\Example Scenes\PostProcessing\Runtime\Attributes\GetSetAttribute.cs" />
-     <Compile Include="Assets\#NVJOB Simple Water Shaders\Example Scenes\PostProcessing\Runtime\Attributes\MinAttribute.cs" />
-     <Compile Include="Assets\#NVJOB Simple Water Shaders\Example Scenes\PostProcessing\Runtime\Attributes\TrackballAttribute.cs" />
-     <Compile Include="Assets\#NVJOB Simple Water Shaders\Example Scenes\PostProcessing\Runtime\Attributes\TrackballGroupAttribute.cs" />
-     <Compile Include="Assets\#NVJOB Simple Water Shaders\Example Scenes\PostProcessing\Runtime\Components\AmbientOcclusionComponent.cs" />
-     <Compile Include="Assets\#NVJOB Simple Water Shaders\Example Scenes\PostProcessing\Runtime\Components\BloomComponent.cs" />
-     <Compile Include="Assets\#NVJOB Simple Water Shaders\Example Scenes\PostProcessing\Runtime\Components\BuiltinDebugViewsComponent.cs" />
-     <Compile Include="Assets\#NVJOB Simple Water Shaders\Example Scenes\PostProcessing\Runtime\Components\ChromaticAberrationComponent.cs" />
-     <Compile Include="Assets\#NVJOB Simple Water Shaders\Example Scenes\PostProcessing\Runtime\Components\ColorGradingComponent.cs" />
-     <Compile Include="Assets\#NVJOB Simple Water Shaders\Example Scenes\PostProcessing\Runtime\Components\DepthOfFieldComponent.cs" />
-     <Compile Include="Assets\#NVJOB Simple Water Shaders\Example Scenes\PostProcessing\Runtime\Components\DitheringComponent.cs" />
-     <Compile Include="Assets\#NVJOB Simple Water Shaders\Example Scenes\PostProcessing\Runtime\Components\EyeAdaptationComponent.cs" />
-     <Compile Include="Assets\#NVJOB Simple Water Shaders\Example Scenes\PostProcessing\Runtime\Components\FogComponent.cs" />
-     <Compile Include="Assets\#NVJOB Simple Water Shaders\Example Scenes\PostProcessing\Runtime\Components\FxaaComponent.cs" />
-     <Compile Include="Assets\#NVJOB Simple Water Shaders\Example Scenes\PostProcessing\Runtime\Components\GrainComponent.cs" />
-     <Compile Include="Assets\#NVJOB Simple Water Shaders\Example Scenes\PostProcessing\Runtime\Components\MotionBlurComponent.cs" />
-     <Compile Include="Assets\#NVJOB Simple Water Shaders\Example Scenes\PostProcessing\Runtime\Components\ScreenSpaceReflectionComponent.cs" />
-     <Compile Include="Assets\#NVJOB Simple Water Shaders\Example Scenes\PostProcessing\Runtime\Components\TaaComponent.cs" />
-     <Compile Include="Assets\#NVJOB Simple Water Shaders\Example Scenes\PostProcessing\Runtime\Components\UserLutComponent.cs" />
-     <Compile Include="Assets\#NVJOB Simple Water Shaders\Example Scenes\PostProcessing\Runtime\Components\VignetteComponent.cs" />
-     <Compile Include="Assets\#NVJOB Simple Water Shaders\Example Scenes\PostProcessing\Runtime\Models\AmbientOcclusionModel.cs" />
-     <Compile Include="Assets\#NVJOB Simple Water Shaders\Example Scenes\PostProcessing\Runtime\Models\AntialiasingModel.cs" />
-     <Compile Include="Assets\#NVJOB Simple Water Shaders\Example Scenes\PostProcessing\Runtime\Models\BloomModel.cs" />
-     <Compile Include="Assets\#NVJOB Simple Water Shaders\Example Scenes\PostProcessing\Runtime\Models\BuiltinDebugViewsModel.cs" />
-     <Compile Include="Assets\#NVJOB Simple Water Shaders\Example Scenes\PostProcessing\Runtime\Models\ChromaticAberrationModel.cs" />
-     <Compile Include="Assets\#NVJOB Simple Water Shaders\Example Scenes\PostProcessing\Runtime\Models\ColorGradingModel.cs" />
-     <Compile Include="Assets\#NVJOB Simple Water Shaders\Example Scenes\PostProcessing\Runtime\Models\DepthOfFieldModel.cs" />
-     <Compile Include="Assets\#NVJOB Simple Water Shaders\Example Scenes\PostProcessing\Runtime\Models\DitheringModel.cs" />
-     <Compile Include="Assets\#NVJOB Simple Water Shaders\Example Scenes\PostProcessing\Runtime\Models\EyeAdaptationModel.cs" />
-     <Compile Include="Assets\#NVJOB Simple Water Shaders\Example Scenes\PostProcessing\Runtime\Models\FogModel.cs" />
-     <Compile Include="Assets\#NVJOB Simple Water Shaders\Example Scenes\PostProcessing\Runtime\Models\GrainModel.cs" />
-     <Compile Include="Assets\#NVJOB Simple Water Shaders\Example Scenes\PostProcessing\Runtime\Models\MotionBlurModel.cs" />
-     <Compile Include="Assets\#NVJOB Simple Water Shaders\Example Scenes\PostProcessing\Runtime\Models\ScreenSpaceReflectionModel.cs" />
-     <Compile Include="Assets\#NVJOB Simple Water Shaders\Example Scenes\PostProcessing\Runtime\Models\UserLutModel.cs" />
-     <Compile Include="Assets\#NVJOB Simple Water Shaders\Example Scenes\PostProcessing\Runtime\Models\VignetteModel.cs" />
-     <Compile Include="Assets\#NVJOB Simple Water Shaders\Example Scenes\PostProcessing\Runtime\PostProcessingBehaviour.cs" />
-     <Compile Include="Assets\#NVJOB Simple Water Shaders\Example Scenes\PostProcessing\Runtime\PostProcessingComponent.cs" />
-     <Compile Include="Assets\#NVJOB Simple Water Shaders\Example Scenes\PostProcessing\Runtime\PostProcessingContext.cs" />
-     <Compile Include="Assets\#NVJOB Simple Water Shaders\Example Scenes\PostProcessing\Runtime\PostProcessingModel.cs" />
-     <Compile Include="Assets\#NVJOB Simple Water Shaders\Example Scenes\PostProcessing\Runtime\PostProcessingProfile.cs" />
-     <Compile Include="Assets\#NVJOB Simple Water Shaders\Example Scenes\PostProcessing\Runtime\Utils\ColorGradingCurve.cs" />
-     <Compile Include="Assets\#NVJOB Simple Water Shaders\Example Scenes\PostProcessing\Runtime\Utils\GraphicsUtils.cs" />
-     <Compile Include="Assets\#NVJOB Simple Water Shaders\Example Scenes\PostProcessing\Runtime\Utils\MaterialFactory.cs" />
-     <Compile Include="Assets\#NVJOB Simple Water Shaders\Example Scenes\PostProcessing\Runtime\Utils\RenderTextureFactory.cs" />
-     <Compile Include="Assets\#NVJOB Simple Water Shaders\Example Scenes\PostProcessing\Utilities\CustomMotionTexture\ExampleWheelController.cs" />
-     <Compile Include="Assets\DreamForestTree\Script\FreeCam.cs" />
-     <Compile Include="Assets\DreamForestTree\Script\ScrollUVWater.cs" />
-     <Compile Include="Assets\FireExplosionVFX\Scripts\FxSplash.cs" />
-     <Compile Include="Assets\FireExplosionVFX\Scripts\LaunchEffect.cs" />
-     <Compile Include="Assets\JMO Assets\WarFX\Demo\Assets\CFX_AutoStopLoopedEffect.cs" />
-     <Compile Include="Assets\JMO Assets\WarFX\Demo\Assets\CFX_Demo_RandomDir.cs" />
-     <Compile Include="Assets\JMO Assets\WarFX\Demo\Assets\CFX_Demo_RotateCamera.cs" />
-     <Compile Include="Assets\JMO Assets\WarFX\Demo\Assets\CFX_Demo_Translate.cs" />
-     <Compile Include="Assets\JMO Assets\WarFX\Demo\Assets\WFX_Demo.cs" />
-     <Compile Include="Assets\JMO Assets\WarFX\Demo\Assets\WFX_Demo_DeleteAfterDelay.cs" />
-     <Compile Include="Assets\JMO Assets\WarFX\Demo\Assets\WFX_Demo_New.cs" />
-     <Compile Include="Assets\JMO Assets\WarFX\Demo\Assets\WFX_Demo_RandomDir.cs" />
-     <Compile Include="Assets\JMO Assets\WarFX\Demo\Assets\WFX_Demo_Wall.cs" />
-     <Compile Include="Assets\JMO Assets\WarFX\Scripts\CFX_AutoDestructShuriken.cs" />
-     <Compile Include="Assets\JMO Assets\WarFX\Scripts\CFX_LightIntensityFade.cs" />
-     <Compile Include="Assets\JMO Assets\WarFX\Scripts\WFX_BulletHoleDecal.cs" />
-     <Compile Include="Assets\JMO Assets\WarFX\Scripts\WFX_LightFlicker.cs" />
-     <Compile Include="Assets\JMO Assets\WarFX\Spawn System\CFX_SpawnSystem.cs" />
-     <Compile Include="Assets\Lava_Flowing_Shader\Scripts\ScrollingUVs_Layers.cs" />
-     <Compile Include="Assets\MusicPlayer.cs" />
-     <Compile Include="Assets\MusicPlayer2.cs" />
-     <Compile Include="Assets\Particle Dissolve Shader by Moonflower Carnivore\Scripts\HUDFPS.cs" />
-     <Compile Include="Assets\Particle Dissolve Shader by Moonflower Carnivore\Scripts\PDS_GameController.cs" />
-     <Compile Include="Assets\Particle Dissolve Shader by Moonflower Carnivore\Scripts\ScrollingUVs_PDS.cs" />
-     <Compile Include="Assets\Player.cs" />
-     <Compile Include="Assets\PorglezompPyroclastics\ExplosionMat.cs" />
-     <Compile Include="Assets\PyroParticles\Demo\DemoScript.cs" />
-     <Compile Include="Assets\PyroParticles\Demo\DemoScriptEditor.cs" />
-     <Compile Include="Assets\PyroParticles\Prefab\Script\FireBaseScript.cs" />
-     <Compile Include="Assets\PyroParticles\Prefab\Script\FireCollisionForwardScript.cs" />
-     <Compile Include="Assets\PyroParticles\Prefab\Script\FireConstantBaseScript.cs" />
-     <Compile Include="Assets\PyroParticles\Prefab\Script\FireLightScript.cs" />
-     <Compile Include="Assets\PyroParticles\Prefab\Script\FireProjectileScript.cs" />
-     <Compile Include="Assets\PyroParticles\Prefab\Script\MeteorSwarmScript.cs" />
-     <Compile Include="Assets\PyroParticles\Prefab\Script\SingleLineAttribute.cs" />
-     <Compile Include="Assets\SampleScenes\Menu\Scripts\MenuSceneLoader.cs" />
-     <Compile Include="Assets\SampleScenes\Menu\Scripts\PauseMenu.cs" />
-     <Compile Include="Assets\SampleScenes\Menu\Scripts\SceneAndURLLoader.cs" />
-     <Compile Include="Assets\SampleScenes\Scripts\CameraSwitch.cs" />
-     <Compile Include="Assets\SampleScenes\Scripts\LevelReset.cs" />
-     <Compile Include="Assets\SampleScenes\Scripts\ParticleSceneControls.cs" />
-     <Compile Include="Assets\SampleScenes\Scripts\PlaceTargetWithMouse.cs" />
-     <Compile Include="Assets\SampleScenes\Scripts\SlowMoButton.cs" />
-     <Compile Include="Assets\StarSparrow\Readme\Readme Files\Scripts\ReadmeStarSparrow.cs" />
-     <Compile Include="Assets\True Explosions\System\Scripts\effects\PseudoVolumetricExplosion.cs" />
-     <Compile Include="Assets\True Explosions\System\Scripts\effects\exploderComponents\ExploderComponent.cs" />
-     <Compile Include="Assets\True Explosions\System\Scripts\effects\exploderComponents\LightComponent.cs" />
-     <Compile Include="Assets\True Explosions\System\Scripts\effects\exploderComponents\ParticleComponent.cs" />
-     <Compile Include="Assets\True Explosions\System\Scripts\effects\exploderComponents\PseudoVolumetricComponent.cs" />
-     <Compile Include="Assets\True Explosions\System\Scripts\effects\exploderComponents\VolumetricComponent.cs" />
-     <Compile Include="Assets\True Explosions\System\Scripts\effects\exploderComponents\VolumetricComponent2D.cs" />
-     <Compile Include="Assets\True Explosions\System\Scripts\exploders\Exploder.cs" />
-     <Compile Include="Assets\True Explosions\System\Scripts\exploders\Exploder2D.cs" />
-     <Compile Include="Assets\True Explosions\System\Scripts\exploders\SphereExploder.cs" />
-     <None Include="Assets\#NVJOB Simple Water Shaders\Example Scenes\PostProcessing\Resources\Shaders\FXAA.shader" />
-     <None Include="Assets\DreamForestTree\PostProcessing\Resources\Shaders\ScreenSpaceReflection.shader" />
-     <None Include="Assets\JMO Assets\WarFX\Shaders\WFX_S Multiply Soft.shader" />
-     <None Include="Assets\Particle Dissolve Shader by Moonflower Carnivore\Shaders\legacy\DissolveSoft_Alpha_Additive_softrim.shader" />
-     <None Include="Assets\JMO Assets\WarFX\Shaders\WFX_S Multiply Soft Scroll.shader" />
-     <None Include="Assets\DreamForestTree\PostProcessing\Resources\Shaders\GrainGen.shader" />
-     <None Include="Assets\Particle Dissolve Shader by Moonflower Carnivore\Shaders\legacy\Dissolve_Alpha_Additive_softrim.shader" />
-     <None Include="Assets\#NVJOB Simple Water Shaders\Example Scenes\PostProcessing\Resources\Shaders\ScreenSpaceRaytrace.cginc" />
-     <None Include="Assets\DreamForestTree\PostProcessing\Editor Resources\Monitors\HistogramCompute.compute" />
-     <None Include="Assets\DreamForestTree\PostProcessing\Resources\Shaders\FXAA3.cginc" />
-     <None Include="Assets\#NVJOB Simple Water Shaders\Example Scenes\PostProcessing\Resources\Shaders\DepthOfField.shader" />
-     <None Include="Assets\DreamForestTree\PostProcessing\Resources\Shaders\EyeAdaptation.shader" />
-     <None Include="Assets\#NVJOB Simple Water Shaders\Example Scenes\PostProcessing\Editor Resources\Monitors\HistogramCompute.compute" />
-     <None Include="Assets\#NVJOB Simple Water Shaders\Example Scenes\PostProcessing\Resources\Shaders\Tonemapping.cginc" />
-     <None Include="Assets\DreamForestTree\PostProcessing\Editor Resources\UI\CurveBackground.shader" />
-     <None Include="Assets\#NVJOB Simple Water Shaders\Example Scenes\PostProcessing\Resources\Shaders\MotionBlur.cginc" />
-     <None Include="Assets\#NVJOB Simple Water Shaders\Example Scenes\PostProcessing\Utilities\CustomMotionTexture\Shaders\CustomMotionVectorTexture.shader" />
-     <None Include="Assets\DreamForestTree\PostProcessing\Resources\Shaders\BuiltinDebugViews.shader" />
-     <None Include="Assets\#NVJOB Simple Water Shaders\Example Scenes\PostProcessing\Resources\Shaders\BuiltinDebugViews.shader" />
-     <None Include="Assets\#NVJOB Simple Water Shaders\Example Scenes\PostProcessing\Editor Resources\Monitors\VectorscopeCompute.compute" />
-     <None Include="Assets\DreamForestTree\PostProcessing\Resources\Shaders\EyeAdaptation.cginc" />
-     <None Include="Assets\DreamForestTree\PostProcessing\Resources\Shaders\LutGen.shader" />
-     <None Include="Assets\Particle Dissolve Shader by Moonflower Carnivore\Shaders\legacy\DissolveSoft_Alpha_Unlit.shader" />
-     <None Include="Assets\DreamForestTree\PostProcessing\Resources\Shaders\EyeHistogram.compute" />
-     <None Include="Assets\JMO Assets\WarFX\_Effects\MuzzleFlashes\!MuzzleFlash Differences.txt" />
-     <None Include="Assets\Lava_Flowing_Shader\Shaders\Diffuse_Lava_Distort.shader" />
-     <None Include="Assets\JMO Assets\WarFX\Shaders\WFX_S Alpha-Specular TintColor.shader" />
-     <None Include="Assets\#NVJOB Simple Water Shaders\Example Scenes\PostProcessing\Resources\Shaders\ScreenSpaceReflection.shader" />
-     <None Include="Assets\PyroParticles\Prefab\Materials\AdditiveTintable.shader" />
-     <None Include="Assets\DreamForestTree\PostProcessing\Resources\Shaders\TAA.cginc" />
-     <None Include="Assets\DreamForestTree\PostProcessing\Resources\Shaders\AmbientOcclusion.cginc" />
-     <None Include="Assets\#NVJOB Simple Water Shaders\Example Scenes\Environment\Flag\Materials\Flag.shader" />
-     <None Include="Assets\#NVJOB Simple Water Shaders\Example Scenes\PostProcessing\Editor Resources\Monitors\WaveformCompute.compute" />
-     <None Include="Assets\JMO Assets\WarFX\Shaders\WFX_S Add Scroll.shader" />
-     <None Include="Assets\#NVJOB Simple Water Shaders\Example Scenes\PostProcessing\Resources\Shaders\DepthOfField.cginc" />
-     <None Include="Assets\#NVJOB Simple Water Shaders\Example Scenes\PostProcessing\Resources\Shaders\EyeHistogram.compute" />
-     <None Include="Assets\laxer tree pkg\README.txt" />
-     <None Include="Assets\SampleScenes\Shaders\Skybox-Procedural.shader" />
-     <None Include="Assets\#NVJOB Simple Water Shaders\Example Scenes\Environment\Palm Trees\Materials\Standard 2-Sided.shader" />
-     <None Include="Assets\#NVJOB Simple Water Shaders\Example Scenes\PostProcessing\Resources\Shaders\UberSecondPass.cginc" />
-     <None Include="Assets\Particle Dissolve Shader by Moonflower Carnivore\Shaders\unity5\Particle_Softrim_Dissolve_alpha.shader" />
-     <None Include="Assets\JMO Assets\Cartoon FX Easy Editor\CartoonFX Easy Editor Readme.txt" />
-     <None Include="Assets\DreamForestTree\PostProcessing\Editor Resources\Monitors\VectorscopeCompute.compute" />
-     <None Include="Assets\Lava_Flowing_Shader\ReadMe.txt" />
-     <None Include="Assets\Particle Dissolve Shader by Moonflower Carnivore\Shaders\legacy\Dissolve_Alpha_Unlit_Opacity_softrim.shader" />
-     <None Include="Assets\JMO Assets\WarFX\_Effects (Mobile)\MuzzleFlashes\!MuzzleFlash Differences.txt" />
-     <None Include="Assets\DreamForestTree\PostProcessing\Resources\Shaders\ColorGrading.cginc" />
-     <None Include="Assets\Particle Dissolve Shader by Moonflower Carnivore\Shaders\softrim\Particle_softrim_add.shader" />
-     <None Include="Assets\DreamForestTree\ReadMe.txt" />
-     <None Include="Assets\JMO Assets\WarFX\Shaders\WFX_S Particle Add A8.shader" />
-     <None Include="Assets\DreamForestTree\PostProcessing\Editor Resources\Monitors\HistogramRender.shader" />
-     <None Include="Assets\#NVJOB Simple Water Shaders\Example Scenes\PostProcessing\Resources\Shaders\EyeAdaptation.shader" />
-     <None Include="Assets\DreamForestTree\PostProcessing\Resources\Shaders\UberSecondPass.cginc" />
-     <None Include="Assets\Particle Dissolve Shader by Moonflower Carnivore\Shaders\legacy\DissolveSoft_Alpha_Additive_Opacity_softrim.shader" />
-     <None Include="Assets\#NVJOB Simple Water Shaders\Example Scenes\PostProcessing\Resources\Shaders\DiskKernels.cginc" />
-     <None Include="Assets\Particle Dissolve Shader by Moonflower Carnivore\Shaders\softrim\Particle_softrim_add_stretch.shader" />
-     <None Include="Assets\#NVJOB Simple Water Shaders\Example Scenes\PostProcessing\Resources\Shaders\GrainGen.shader" />
-     <None Include="Assets\JMO Assets\WarFX\Shaders\WFX_S Smoke Scroll.shader" />
-     <None Include="Assets\JMO Assets\WarFX\Shaders\WFX_S Particle Multiply A8.shader" />
-     <None Include="Assets\Particle Dissolve Shader by Moonflower Carnivore\Shaders\legacy\DissolveSoft_Alpha_Additive.shader" />
-     <None Include="Assets\#NVJOB Simple Water Shaders\Example Scenes\PostProcessing\Resources\Shaders\EyeAdaptation.cginc" />
-     <None Include="Assets\#NVJOB Simple Water Shaders\license_unity.txt" />
-     <None Include="Assets\#NVJOB Simple Water Shaders\Example Scenes\Environment\#NVJOB Assets\Dynamic Sky (For Demo)\Dynamic Sky (For Demo).shader" />
-     <None Include="Assets\#NVJOB Simple Water Shaders\Example Scenes\PostProcessing\Editor Resources\UI\Trackball.shader" />
-     <None Include="Assets\Lava_Flowing_Shader\Shaders\Unlit_Lava_Distort_Transparent.shader" />
-     <None Include="Assets\#NVJOB Simple Water Shaders\Example Scenes\PostProcessing\Resources\Shaders\Bloom.shader" />
-     <None Include="Assets\DreamForestTree\PostProcessing\Resources\Bluenoise64\LICENSE.txt" />
-     <None Include="Assets\#NVJOB Simple Water Shaders\#NVJOB Simple Water Shaders\Water Specular.shader" />
-     <None Include="Assets\#NVJOB Simple Water Shaders\#NVJOB Simple Water Shaders\Water Surface.shader" />
-     <None Include="Assets\DreamForestTree\PostProcessing\Resources\Shaders\ACES.cginc" />
-     <None Include="Assets\DreamForestTree\PostProcessing\Resources\Shaders\MotionBlur.cginc" />
-     <None Include="Assets\DreamForestTree\PostProcessing\Resources\Shaders\AmbientOcclusion.shader" />
-     <None Include="Assets\DreamForestTree\IMPORTANT.txt" />
-     <None Include="Assets\Particle Dissolve Shader by Moonflower Carnivore\Shaders\legacy\DissolveSoft_Alpha_Unlit_Opacity.shader" />
-     <None Include="Assets\JMO Assets\WarFX\Shaders\WFX_S AlphaBlend Scroll.shader" />
-     <None Include="Assets\Particle Dissolve Shader by Moonflower Carnivore\Shaders\legacy\Dissolve_Alpha_Additive.shader" />
-     <None Include="Assets\PyroParticles\Readme.txt" />
-     <None Include="Assets\Particle Dissolve Shader by Moonflower Carnivore\Shaders\legacy\Dissolve_Alpha_Unlit_softrim.shader" />
-     <None Include="Assets\#NVJOB Simple Water Shaders\Example Scenes\PostProcessing\Resources\Shaders\TAA.shader" />
-     <None Include="Assets\#NVJOB Simple Water Shaders\Example Scenes\PostProcessing\Resources\Shaders\AmbientOcclusion.cginc" />
-     <None Include="Assets\DreamForestTree\PostProcessing\Resources\Shaders\FXAA.shader" />
-     <None Include="Assets\Particle Dissolve Shader by Moonflower Carnivore\Shaders\legacy\DissolveSoft_Alpha_Unlit_Opacity_softrim.shader" />
-     <None Include="Assets\True Explosions\System\Shaders\SphereVolumetricExplosion.shader" />
-     <None Include="Assets\#NVJOB Simple Water Shaders\Example Scenes\PostProcessing\Resources\Shaders\Common.cginc" />
-     <None Include="Assets\#NVJOB Simple Water Shaders\license_nvjob.txt" />
-     <None Include="Assets\DreamForestTree\PostProcessing\Resources\Shaders\ScreenSpaceRaytrace.cginc" />
-     <None Include="Assets\DreamForestTree\PostProcessing\Resources\Shaders\Tonemapping.cginc" />
-     <None Include="Assets\DreamForestTree\PostProcessing\Resources\Shaders\Fog.shader" />
-     <None Include="Assets\#NVJOB Simple Water Shaders\Example Scenes\PostProcessing\Resources\Shaders\TAA.cginc" />
-     <None Include="Assets\#NVJOB Simple Water Shaders\Example Scenes\PostProcessing\Resources\Shaders\FXAA3.cginc" />
-     <None Include="Assets\DreamForestTree\PostProcessing\Editor Resources\Monitors\ParadeRender.shader" />
-     <None Include="Assets\#NVJOB Simple Water Shaders\Example Scenes\PostProcessing\Resources\Shaders\LutGen.shader" />
-     <None Include="Assets\Lava_Flowing_Shader\Shaders\Unlit_Lava_Distort.shader" />
-     <None Include="Assets\DreamForestTree\PostProcessing\Resources\Shaders\MotionBlur.shader" />
-     <None Include="Assets\#NVJOB Simple Water Shaders\Example Scenes\PostProcessing\Editor Resources\Monitors\WaveformRender.shader" />
-     <None Include="Assets\#NVJOB Simple Water Shaders\Example Scenes\PostProcessing\Editor Resources\UI\CurveBackground.shader" />
-     <None Include="Assets\Particle Dissolve Shader by Moonflower Carnivore\Shaders\softrim\Particle_softrim_alpha.shader" />
-     <None Include="Assets\#NVJOB Simple Water Shaders\Example Scenes\PostProcessing\Editor Resources\Monitors\ParadeRender.shader" />
-     <None Include="Assets\DreamForestTree\PostProcessing\Resources\Shaders\DiskKernels.cginc" />
-     <None Include="Assets\DreamForestTree\PostProcessing\Resources\Bluenoise64\COPYING.txt" />
-     <None Include="Assets\#NVJOB Simple Water Shaders\Example Scenes\PostProcessing\Editor Resources\Monitors\VectorscopeRender.shader" />
-     <None Include="Assets\DreamForestTree\PostProcessing\Editor Resources\UI\Trackball.shader" />
-     <None Include="Assets\Particle Dissolve Shader by Moonflower Carnivore\ReadMe.txt" />
-     <None Include="Assets\Particle Dissolve Shader by Moonflower Carnivore\Shaders\legacy\DissolveSoft_Alpha_Unlit_softrim.shader" />
-     <None Include="Assets\DreamForestTree\PostProcessing\Editor Resources\Monitors\WaveformRender.shader" />
-     <None Include="Assets\#NVJOB Simple Water Shaders\Example Scenes\PostProcessing\Resources\Shaders\Bloom.cginc" />
-     <None Include="Assets\#NVJOB Simple Water Shaders\Example Scenes\PostProcessing\Resources\Shaders\ACES.cginc" />
-     <None Include="Assets\DreamForestTree\PostProcessing\Resources\Shaders\Common.cginc" />
-     <None Include="Assets\#NVJOB Simple Water Shaders\Example Scenes\PostProcessing\Resources\Bluenoise64\LICENSE.txt" />
-     <None Include="Assets\DreamForestTree\PostProcessing\Editor Resources\Monitors\VectorscopeRender.shader" />
-     <None Include="Assets\Particle Dissolve Shader by Moonflower Carnivore\Shaders\legacy\Dissolve_Alpha_Unlit_Opacity.shader" />
-     <None Include="Assets\DreamForestTree\PostProcessing\Resources\Shaders\Bloom.shader" />
-     <None Include="Assets\DreamForestTree\PostProcessing\Resources\Shaders\Uber.shader" />
-     <None Include="Assets\#NVJOB Simple Water Shaders\Example Scenes\PostProcessing\Resources\Bluenoise64\COPYING.txt" />
-     <None Include="Assets\DreamForestTree\PostProcessing\Resources\Shaders\DepthOfField.shader" />
-     <None Include="Assets\DreamForestTree\PostProcessing\Resources\Shaders\TAA.shader" />
-     <None Include="Assets\#NVJOB Simple Water Shaders\Example Scenes\PostProcessing\Editor Resources\Monitors\HistogramRender.shader" />
-     <None Include="Assets\Particle Dissolve Shader by Moonflower Carnivore\Shaders\legacy\DissolveSoft_Alpha_Additive_Opacity.shader" />
-     <None Include="Assets\JMO Assets\WarFX\Shaders\WFX_S Particle AddSoft A8.shader" />
-     <None Include="Assets\DreamForestTree\PostProcessing\Resources\Shaders\Blit.shader" />
-     <None Include="Assets\DreamForestTree\PostProcessing\Resources\Shaders\Bloom.cginc" />
-     <None Include="Assets\JMO Assets\WarFX\!WarFX Readme.txt" />
-     <None Include="Assets\DreamForestTree\PostProcessing\Editor Resources\Monitors\WaveformCompute.compute" />
-     <None Include="Assets\#NVJOB Simple Water Shaders\Example Scenes\PostProcessing\Resources\Shaders\MotionBlur.shader" />
-     <None Include="Assets\DreamForestTree\PostProcessing\Resources\Shaders\DepthOfField.cginc" />
-     <None Include="Assets\JMO Assets\WarFX\Shaders\WFX_S Alpha-Diffuse TintColor.shader" />
-     <None Include="Assets\Particle Dissolve Shader by Moonflower Carnivore\Shaders\legacy\Dissolve_Alpha_Additive_Opacity_softrim.shader" />
-     <None Include="Assets\Particle Dissolve Shader by Moonflower Carnivore\Shaders\legacy\Dissolve_Alpha_Unlit.shader" />
-     <None Include="Assets\#NVJOB Simple Water Shaders\Example Scenes\PostProcessing\Resources\Shaders\Uber.shader" />
-     <None Include="Assets\#NVJOB Simple Water Shaders\Example Scenes\PostProcessing\Resources\Shaders\Blit.shader" />
-     <None Include="Assets\Particle Dissolve Shader by Moonflower Carnivore\Shaders\unity5\Particle_Softrim_Dissolve_additive.shader" />
-     <None Include="Assets\epyphany\ReadMe.txt" />
-     <None Include="Assets\Lava_Flowing_Shader\Shaders\Unlit_Lava_Simple.shader" />
-     <None Include="Assets\Particle Dissolve Shader by Moonflower Carnivore\Shaders\softrim\Particle_softrim_alpha_stretch.shader" />
-     <None Include="Assets\JMO Assets\WarFX\Shaders\WFX_S AlphaBlend NoSoftParticles.shader" />
-     <None Include="Assets\PorglezompPyroclastics\Explosion.shader" />
-     <None Include="Assets\Particle Dissolve Shader by Moonflower Carnivore\Shaders\legacy\Dissolve_Alpha_Additive_Opacity.shader" />
-     <None Include="Assets\#NVJOB Simple Water Shaders\Example Scenes\PostProcessing\Resources\Shaders\ColorGrading.cginc" />
-     <None Include="Assets\#NVJOB Simple Water Shaders\Example Scenes\PostProcessing\Resources\Shaders\AmbientOcclusion.shader" />
-     <None Include="Assets\PorglezompPyroclastics\README.txt" />
-     <None Include="Assets\#NVJOB Simple Water Shaders\Example Scenes\PostProcessing\Resources\Shaders\Fog.shader" />
+     <Compile Include="Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Utilities\AssemblyInfo.cs" />
+     <Compile Include="Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Utilities\EnumInfo.cs" />
+     <Compile Include="Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Utilities\StringBuilderExtensions.cs" />
+     <None Include="Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Utilities\Unity.ShaderGraph.Utilities.asmdef" />
     <Reference Include="UnityEngine">
         <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
@@ -462,6 +222,30 @@
     </Reference>
     <Reference Include="UnityEditor">
         <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.VR">
+        <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityVR/Editor/UnityEditor.VR.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.Graphs">
+        <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.Graphs.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.WindowsStandalone.Extensions">
+        <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.WebGL.Extensions">
+        <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.UWP.Extensions">
+        <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
+        <HintPath>C:/Program Files (x86)/Microsoft Visual Studio Tools for Unity/16.0/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
+    </Reference>
+    <Reference Include="ICSharpCode.NRefactory">
+        <HintPath>C:/Users/Sync/Documents/unity/firstProject/Library/PackageCache/com.unity.render-pipelines.core@7.3.1/Editor/ShaderGenerator/ICSharpCode.NRefactory.dll</HintPath>
+    </Reference>
+    <Reference Include="nunit.framework">
+        <HintPath>C:/Users/Sync/Documents/unity/firstProject/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
         <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
@@ -819,74 +603,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
-      <Project>{9aab49a3-4e66-8f4e-37e3-d82837bf0627}</Project>
-      <Name>Assembly-CSharp-firstpass</Name>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
-    </ProjectReference>
-    <ProjectReference Include="Unity.RenderPipeline.Universal.ShaderLibrary.csproj">
-      <Project>{104c90d0-456f-0626-a4f5-f45d62b18850}</Project>
-      <Name>Unity.RenderPipeline.Universal.ShaderLibrary</Name>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
-    </ProjectReference>
-    <ProjectReference Include="Unity.Timeline.Editor.csproj">
-      <Project>{eb878e75-31ff-1b6b-0866-6b13d2afb69c}</Project>
-      <Name>Unity.Timeline.Editor</Name>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
-    </ProjectReference>
-    <ProjectReference Include="Unity.2D.Animation.Runtime.csproj">
-      <Project>{c77b703c-459e-5de3-5806-4268feecb7e3}</Project>
-      <Name>Unity.2D.Animation.Runtime</Name>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
-    </ProjectReference>
-    <ProjectReference Include="Unity.2D.PixelPerfect.Editor.csproj">
-      <Project>{e63f8580-03ca-a2fd-03da-48e3ac4c24dc}</Project>
-      <Name>Unity.2D.PixelPerfect.Editor</Name>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
-    </ProjectReference>
-    <ProjectReference Include="Unity.RenderPipelines.Universal.Shaders.csproj">
-      <Project>{8d5aafe1-53d5-9eb3-8aba-cc3d25ed8655}</Project>
-      <Name>Unity.RenderPipelines.Universal.Shaders</Name>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
-    </ProjectReference>
-    <ProjectReference Include="Unity.VSCode.Editor.csproj">
-      <Project>{71f5d434-2be8-fb89-eb6f-d13842df6c40}</Project>
-      <Name>Unity.VSCode.Editor</Name>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
-    </ProjectReference>
-    <ProjectReference Include="Unity.RenderPipelines.Core.Editor.csproj">
-      <Project>{d8e5f3d6-84ef-bf97-d4b2-94334fd15aad}</Project>
-      <Name>Unity.RenderPipelines.Core.Editor</Name>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
-    </ProjectReference>
-    <ProjectReference Include="Unity.RenderPipelines.Core.Runtime.csproj">
-      <Project>{d57a230a-7f96-ecb1-b0f9-8f7c0cfec20f}</Project>
-      <Name>Unity.RenderPipelines.Core.Runtime</Name>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
-    </ProjectReference>
-    <ProjectReference Include="Unity.2D.SpriteShape.Editor.csproj">
-      <Project>{79224920-f907-bb84-4b41-e4cb2a5f9685}</Project>
-      <Name>Unity.2D.SpriteShape.Editor</Name>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
-    </ProjectReference>
-    <ProjectReference Include="Unity.TextMeshPro.Editor.csproj">
-      <Project>{9eff794c-660d-765d-8053-2572bb517937}</Project>
-      <Name>Unity.TextMeshPro.Editor</Name>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
-    </ProjectReference>
-    <ProjectReference Include="Unity.2D.Path.Editor.csproj">
-      <Project>{d3f22a58-40db-a8bb-0409-bbecc99fd706}</Project>
-      <Name>Unity.2D.Path.Editor</Name>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
-    </ProjectReference>
-    <ProjectReference Include="Unity.RenderPipelines.Universal.Runtime.csproj">
-      <Project>{c38a05a3-d5b5-cfcd-5f90-9d38be432a80}</Project>
-      <Name>Unity.RenderPipelines.Universal.Runtime</Name>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
-    </ProjectReference>
-    <ProjectReference Include="Unity.RenderPipelines.Universal.Editor.csproj">
-      <Project>{3eef2436-af87-b209-2484-a4c44aadd9b8}</Project>
-      <Name>Unity.RenderPipelines.Universal.Editor</Name>
+    <ProjectReference Include="UnityEditor.UI.csproj">
+      <Project>{7c5d1693-32af-6217-a3a1-4be3f98ca278}</Project>
+      <Name>UnityEditor.UI</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.csproj">
@@ -894,114 +613,14 @@
       <Name>UnityEngine.UI</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
-    <ProjectReference Include="Unity.Timeline.csproj">
-      <Project>{3ea15158-84b5-6ce4-6941-c280857d7280}</Project>
-      <Name>Unity.Timeline</Name>
+    <ProjectReference Include="UnityEditor.TestRunner.csproj">
+      <Project>{61265d0b-5c26-4c06-3343-5d13d1bf80fe}</Project>
+      <Name>UnityEditor.TestRunner</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
-    <ProjectReference Include="Unity.2D.Animation.Triangle.Runtime.csproj">
-      <Project>{94d043f1-c307-a097-8eaf-68c3aa0655f4}</Project>
-      <Name>Unity.2D.Animation.Triangle.Runtime</Name>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
-    </ProjectReference>
-    <ProjectReference Include="PsdPlugin.csproj">
-      <Project>{5c7b2d4b-830f-bf27-b77e-e4c3b59af9f3}</Project>
-      <Name>PsdPlugin</Name>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
-    </ProjectReference>
-    <ProjectReference Include="Unity.CollabProxy.Editor.csproj">
-      <Project>{289cbc88-85ec-ad5a-cdf2-b57f4f981090}</Project>
-      <Name>Unity.CollabProxy.Editor</Name>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
-    </ProjectReference>
-    <ProjectReference Include="Unity.Rider.Editor.csproj">
-      <Project>{357f7fb5-3679-8c0b-e439-40504ab72335}</Project>
-      <Name>Unity.Rider.Editor</Name>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
-    </ProjectReference>
-    <ProjectReference Include="Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.csproj">
-      <Project>{267fc2ca-05d1-5aed-d201-41cf70638f2f}</Project>
-      <Name>Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary</Name>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
-    </ProjectReference>
-    <ProjectReference Include="Unity.Mathematics.csproj">
-      <Project>{d205e80b-e6c4-ccbe-58e8-57f3d3b17c38}</Project>
-      <Name>Unity.Mathematics</Name>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
-    </ProjectReference>
-    <ProjectReference Include="Unity.2D.Psdimporter.Editor.csproj">
-      <Project>{e84bcb00-7d83-1a93-aedd-d85817b49820}</Project>
-      <Name>Unity.2D.Psdimporter.Editor</Name>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
-    </ProjectReference>
-    <ProjectReference Include="Unity.InternalAPIEngineBridge.001.csproj">
-      <Project>{39437642-1334-5b6e-a3b6-5e36ee21d4ee}</Project>
-      <Name>Unity.InternalAPIEngineBridge.001</Name>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
-    </ProjectReference>
-    <ProjectReference Include="Unity.2D.Sprite.Editor.csproj">
-      <Project>{a5a734d4-10ff-9b44-53aa-ce034bfa4c6d}</Project>
-      <Name>Unity.2D.Sprite.Editor</Name>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
-    </ProjectReference>
-    <ProjectReference Include="Unity.2D.Common.Runtime.csproj">
-      <Project>{5a7df3f0-7da7-343b-7ea6-cb759576f3e3}</Project>
-      <Name>Unity.2D.Common.Runtime</Name>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
-    </ProjectReference>
-    <ProjectReference Include="Unity.2D.Tilemap.Editor.csproj">
-      <Project>{e7282a25-a53a-2179-53dd-d882e83b26d4}</Project>
-      <Name>Unity.2D.Tilemap.Editor</Name>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
-    </ProjectReference>
-    <ProjectReference Include="Unity.2D.SpriteShape.Runtime.csproj">
-      <Project>{ea115597-f035-2872-2edc-e7c663c77d86}</Project>
-      <Name>Unity.2D.SpriteShape.Runtime</Name>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
-    </ProjectReference>
-    <ProjectReference Include="Unity.2D.PixelPerfect.csproj">
-      <Project>{bbe7d2f7-0e02-52ef-6e7a-dd72d89c29e8}</Project>
-      <Name>Unity.2D.PixelPerfect</Name>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
-    </ProjectReference>
-    <ProjectReference Include="Unity.2D.Animation.Editor.csproj">
-      <Project>{418e3135-d0b3-3dc5-61c1-9df28fabe428}</Project>
-      <Name>Unity.2D.Animation.Editor</Name>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
-    </ProjectReference>
-    <ProjectReference Include="Unity.ShaderGraph.Editor.csproj">
-      <Project>{6f91f51e-080e-fe80-c765-f4a86b08cd71}</Project>
-      <Name>Unity.ShaderGraph.Editor</Name>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
-    </ProjectReference>
-    <ProjectReference Include="Unity.Mathematics.Editor.csproj">
-      <Project>{6a0f7f4c-5634-ae04-aaf7-19a078c893da}</Project>
-      <Name>Unity.Mathematics.Editor</Name>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
-    </ProjectReference>
-    <ProjectReference Include="Unity.RenderPipelines.Core.ShaderLibrary.csproj">
-      <Project>{c353ab0d-6d64-db05-368c-8e509169541f}</Project>
-      <Name>Unity.RenderPipelines.Core.ShaderLibrary</Name>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
-    </ProjectReference>
-    <ProjectReference Include="Unity.TextMeshPro.csproj">
-      <Project>{b5bfa522-bbc0-836c-e751-f67a0a18f77b}</Project>
-      <Name>Unity.TextMeshPro</Name>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
-    </ProjectReference>
-    <ProjectReference Include="Unity.2D.Common.Editor.csproj">
-      <Project>{e52637ab-12bc-600a-5db8-0deec42e1428}</Project>
-      <Name>Unity.2D.Common.Editor</Name>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
-    </ProjectReference>
-    <ProjectReference Include="Unity.InternalAPIEditorBridge.001.csproj">
-      <Project>{8bd3ec54-9ce0-38a4-572a-3d27dfcc86f9}</Project>
-      <Name>Unity.InternalAPIEditorBridge.001</Name>
-      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
-    </ProjectReference>
-    <ProjectReference Include="UnityEditor.UI.csproj">
-      <Project>{7c5d1693-32af-6217-a3a1-4be3f98ca278}</Project>
-      <Name>UnityEditor.UI</Name>
+    <ProjectReference Include="UnityEngine.TestRunner.csproj">
+      <Project>{2deb8826-d0c5-9ad5-2e43-f090d4040a54}</Project>
+      <Name>UnityEngine.TestRunner</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
   </ItemGroup>
